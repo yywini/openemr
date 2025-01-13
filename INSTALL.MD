@@ -107,15 +107,15 @@ volumes:
 ## If you have access to volumes(100 patients)
 ```bash
 sudo apt-get install p7zip-full -y
-wget https://go.iu.edu/8qfT
-mv 8qfT 3-volumes.zip
+wget <link>
+mv <flename> 3-volumes.zip
 unzip 3-volumes.zip
 ```
 ## If you have access to volumes(11k patients) 
 ```bash
 sudo apt-get install p7zip-full -y
-wget https://go.iu.edu/8qSs 
-mv 8qSs 3-volumes.tar.gz 
+wget <link>
+mv <filename> 3-volumes.tar.gz 
 tar -xvzf 3-volumes.tar.gz
 ```
 ## The volumes are created and restored.
